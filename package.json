@@ -1,0 +1,24 @@
+{
+  "name": "novie-real-estate",
+  "version": "1.0.0",
+  "description": "Novie Lewis Real Estate",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmichael86/Novie-Real-Estate.git"
+  },
+  "author": "Michael Lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmichael86/Novie-Real-Estate/issues"
+  },
+  "homepage": "https://github.com/wmichael86/Novie-Real-Estate#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
