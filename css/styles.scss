@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+$body-font: 'Great Vibes', cursive; 
+
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: $body-font;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: $body-font;
 }
 
 h2 {
@@ -21,12 +26,26 @@ footer {
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background: rgba(0,0,255,1);
     color: white;
+    font-family: $body-font;
 }
 
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.navbar {
+.navbar-brand {
+    background: black;
+    color: black;
+}
+}
+#novieface {
+    border: solid 3px;
+}
+#reservebutton {
+    background-color: #4b0082;
 }
