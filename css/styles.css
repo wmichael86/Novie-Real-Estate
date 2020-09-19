@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap");
 body {
-  font-family: "Great Vibes", cursive; }
+  background-image: url("imgindyskyline.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc; }
 
 h1, h2, h3 {
   font-family: "Great Vibes", cursive; }
@@ -17,7 +20,8 @@ footer {
 
 .jumbotron {
   padding: 30px;
-  background: blue;
+  font-size: 50px;
+  background: linear-gradient(90deg, rgba(60, 19, 97, 0.697917) 28%, rgba(0, 15, 255, 0.714723) 48%, #f4f4fa 100%);
   color: white;
   font-family: "Great Vibes", cursive; }
 

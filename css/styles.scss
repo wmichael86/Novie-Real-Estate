@@ -1,11 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap');
 $body-font: 'Great Vibes', cursive; 
 
 
 body {
-    font-family: $body-font;
-}
+    background-image: url("img\indyskyline.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   }
 
 h1, h2, h3 {
     font-family: $body-font;
@@ -26,7 +32,8 @@ footer {
 
 .jumbotron {
     padding: 30px;
-    background: rgba(0,0,255,1);
+    font-size: 50px;
+    background: linear-gradient(90deg, rgba(60,19,97,0.6979166666666667) 28%, rgba(0,15,255,0.7147233893557423) 48%, rgba(244,244,250,1) 100%);
     color: white;
     font-family: $body-font;
 }
