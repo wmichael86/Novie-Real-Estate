@@ -3,16 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap');
 $body-font: 'Great Vibes', cursive; 
 
-
-body {
-    background-image: url("img\indyskyline.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-   }
-
 h1, h2, h3 {
     font-family: $body-font;
 }
@@ -31,6 +21,10 @@ footer {
 }
 
 .jumbotron {
+    h1{
+        font-size: 80px;
+    }
+    margin: 0;
     padding: 30px;
     font-size: 50px;
     background: linear-gradient(90deg, rgba(60,19,97,0.6979166666666667) 28%, rgba(0,15,255,0.7147233893557423) 48%, rgba(244,244,250,1) 100%);
@@ -57,10 +51,37 @@ footer {
     background-color: #4b0082;
 }
 
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .carousel {
     border: solid #5637DD;
+}
+
+.navbar {
+    background-color: #4e0082;
+}
+
+#bgcontainer {
+    background-image: url(../img/monument.jpg);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
