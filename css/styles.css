@@ -10,14 +10,14 @@ header h2 {
   color: #CEC8FF; }
 
 footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background: linear-gradient(90deg, #434146 28%, rgba(175, 175, 177, 0.989233) 58%, #f4f4fa 100%);
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
   font-size: 50px;
-  background: linear-gradient(90deg, rgba(60, 19, 97, 0.697917) 28%, rgba(0, 15, 255, 0.714723) 48%, #f4f4fa 100%);
+  background: linear-gradient(90deg, #434146 28%, rgba(175, 175, 177, 0.989233) 58%, #f4f4fa 100%);
   color: white;
   font-family: "Great Vibes", cursive; }
   .jumbotron h1 {
@@ -51,10 +51,10 @@ footer {
   border: solid #5637DD; }
 
 .navbar {
-  background-color: #4e0082; }
+  background: linear-gradient(90deg, rgba(47, 46, 47, 0.667104) 100%, rgba(175, 175, 177, 0.989233) 100%, #f4f4fa 100%); }
 
 #bgcontainer {
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/wood.jpg);
   background-color: #cccccc;
   /* Used if the image is unavailable */
   height: 100%;

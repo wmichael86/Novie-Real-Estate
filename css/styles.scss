@@ -16,7 +16,7 @@ header h2 {
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background: linear-gradient(90deg, rgba(67,65,70,1) 28%, rgba(175,175,177,0.989233193277311) 58%, rgba(244,244,250,1) 100%);
     padding: 20px 0;
 }
 
@@ -27,7 +27,7 @@ footer {
     margin: 0;
     padding: 30px;
     font-size: 50px;
-    background: linear-gradient(90deg, rgba(60,19,97,0.6979166666666667) 28%, rgba(0,15,255,0.7147233893557423) 48%, rgba(244,244,250,1) 100%);
+    background: linear-gradient(90deg, rgba(67,65,70,1) 28%, rgba(175,175,177,0.989233193277311) 58%, rgba(244,244,250,1) 100%);
     color: white;
     font-family: $body-font;
 }
@@ -69,11 +69,11 @@ footer {
 }
 
 .navbar {
-    background-color: #4e0082;
+    background: linear-gradient(90deg, rgba(47,46,47,0.6671043417366946) 100%, rgba(175,175,177,0.989233193277311) 100%, rgba(244,244,250,1) 100%);
 }
 
 #bgcontainer {
-    background-image: url(../img/);
+    background-image: url(../img/haybail.jpg);
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 100%; /* You must set a specified height */
     background-position: center; /* Center the image */
