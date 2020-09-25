@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap");
 h1, h2, h3 {
   font-family: "Great Vibes", cursive; }
 
 h2 {
-  color: #3046C5; }
+  color: #506369; }
 
 header h2 {
-  color: #1e01f8; }
+  color: #506369; }
 
 footer {
-  background: linear-gradient(90deg, rgba(80,99,105,0.9192051820728291) 10%, rgba(230,195,191,1) 48%, rgba(152,171,167,1) 100%);
+  background: linear-gradient(90deg, #434146 28%, rgba(175, 175, 177, 0.989233) 58%, #f4f4fa 100%);
   padding: 20px 0; }
 
 .jumbotron {
@@ -22,6 +24,86 @@ footer {
   font-family: "Great Vibes", cursive; }
   .jumbotron h1 {
     font-size: 80px; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar .navbar-brand {
+  background: black;
+  color: black; }
+
+.bgmeet {
+  border: solid 3px #506369; }
+
+#meetoviebg {
+  background: radial-gradient(circle, #e6c3bf 37%, #506369 100%); }
+
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637DD; }
+
+.navbar {
+  background: linear-gradient(90deg, #506369 3%, #7f948f 43%, #98aba7 81%); }
+
+#bgcontainer {
+  background-image: url(../img/sagebg.jpg);
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 100%;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+.modal-body {
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+#novieface {
+  border-style: solid 3px #506369; }
+
+h1, h2, h3 {
+  font-family: "Great Vibes", cursive; }
+
+h2 {
+  color: #506369; }
+
+header h2 {
+  color: #506369; }
+
+footer {
+  background: linear-gradient(90deg, #434146 28%, rgba(175, 175, 177, 0.989233) 58%, #f4f4fa 100%);
+  padding: 20px 0; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  font-size: 50px;
+  background: radial-gradient(circle, #e6c3bf 37%, #506369 100%);
+  color: white;
+  font-family: "Great Vibes", cursive; }
+
+.jumbotron h1 {
+  font-size: 80px; }
 
 .row-content {
   padding: 50px 0;
@@ -76,7 +158,13 @@ footer {
   height: 100%;
   vertical-align: middle; }
 
-  #meetnoviebtn {
-    border: solid 3px #3a4c52;
-    background-color: #506369;
-  }
+#novieface {
+  border: solid 3px #506369; }
+
+#meetNoviebtn {
+  background: #506369;
+  border: solid 2px #e6c3bf; }
+
+.site-footer {
+  background: radial-gradient(circle, #506369 37%, #506369 100%);
+  padding: 20px 0; }
