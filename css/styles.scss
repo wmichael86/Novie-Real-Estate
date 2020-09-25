@@ -12,7 +12,7 @@ h2 {
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #1e01f8;
 }
 
 footer {
@@ -27,7 +27,7 @@ footer {
     margin: 0;
     padding: 30px;
     font-size: 50px;
-    background: linear-gradient(90deg, rgba(67,65,70,1) 28%, rgba(175,175,177,0.989233193277311) 58%, rgba(244,244,250,1) 100%);
+    background: radial-gradient(circle, rgba(230,195,191,1) 37%, rgba(80,99,105,1) 100%);
     color: white;
     font-family: $body-font;
 }
@@ -44,11 +44,11 @@ footer {
     color: black;
 }
 }
-#novieface {
+.bgmeet {
     border: solid 3px;
 }
-#reservebutton {
-    background-color: #4b0082;
+#meetnoviebg {
+    background: radial-gradient(circle, rgba(230,195,191,1) 37%, rgba(80,99,105,1) 100%);;
 }
 
 .carousel-control-next-icon {
@@ -69,11 +69,11 @@ footer {
 }
 
 .navbar {
-    background: linear-gradient(90deg, rgba(47,46,47,0.6671043417366946) 100%, rgba(175,175,177,0.989233193277311) 100%, rgba(244,244,250,1) 100%);
+   background: linear-gradient(90deg, rgba(80,99,105,1) 3%, rgba(127,148,143,1) 43%, rgba(152,171,167,1) 81%);
 }
 
 #bgcontainer {
-    background-image: url(../img/haybail.jpg);
+    background-image: url(../img/sagebg.jpg);
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 100%; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -84,4 +84,12 @@ footer {
 .transparent {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+}
+
+
+.modal-body {
+    text-align: center;
+    display: inline-block; 
+    height: 100%;
+    vertical-align: middle;
 }
