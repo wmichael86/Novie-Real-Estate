@@ -65,7 +65,7 @@ footer {
 
 
 .carousel {
-    border: solid #5637DD;
+    border: solid #506369;
 }
 
 .navbar {
@@ -108,9 +108,18 @@ h2 {
 header h2 {
   color: #506369; }
 
-footer {
+.site-footer {
+  a {
+    color: white;
+  }
+  .btn {
+    .btn .btn-link {
+      color: white;
+    }
+  }
   background: linear-gradient(90deg, #434146 28%, rgba(175, 175, 177, 0.989233) 58%, #f4f4fa 100%);
-  padding: 20px 0; }
+  padding: 20px 0;
+color: white; }
 
 .jumbotron {
   margin: 0;
@@ -147,7 +156,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637DD; }
+  border: solid #506369; }
 
 .navbar {
   background: linear-gradient(90deg, #506369 3%, #7f948f 43%, #98aba7 81%); }
@@ -185,4 +194,5 @@ footer {
 
   .site-footer {
     background: radial-gradient(circle, #506369 37%, #506369 100%);
+    color: rgb(182, 180, 180);
     padding: 20px 0; }
